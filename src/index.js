@@ -12,8 +12,28 @@ fetch ('http://localhost:3000/characters')
 function renderChar (character) {
     const animeChar =document.createElement ("div")
     animeChar.classList.add ("anime-char")
-    
-        
+
+ let charClass = "";
+  switch (character.characterType) {
+  case "prince":
+    charClass = "prince-char";
+    break;
+  case "princess":
+    charClass = "princess-char";
+    break;
+  case "fairy":
+    charClass = "fairy-char";
+    break;
+  case "villain":
+    charClass = "villain-char";
+    break;
+  case "animal":
+    charClass = "animal-char";
+    break;
+}
+  
+animeChar.classList.add(charClass);
+
     const h2 =document.createElement ("h2");
     h2.textContent =character.name;
 
