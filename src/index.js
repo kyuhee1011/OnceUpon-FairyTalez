@@ -4,6 +4,25 @@ fetch ('http://localhost:3000/characters')
 .then ((res) => res.json())
 .then ((responseCharacters)  =>{responseCharacters.forEach((element) => {
     disneyChar.push (element)
- console.log (disneyChar)
+    renderChar(element)
 });
 });
+
+// adding the renderChar() function is implemented 
+function renderChar (character) {
+    const animeChar =document.createElement ("div")
+ 
+        
+    const h2 =document.createElement ("h2");
+    h2.textContent =character.name;
+
+    const  img =document.createElement ("img");
+    img.src=character.imageUrl;
+
+    const  p =document.createElement("p");
+    p.textContent = character.films;
+    
+    const imgChar= document.querySelector (".imgChar")
+    imgChar.append (h2, img, p)
+
+    }
