@@ -1,4 +1,5 @@
 const disneyChar =[];
+const searchBar=document.querySelector('#search-bar');
 
 fetch ('http://localhost:3000/characters')
 .then ((res) => res.json())
@@ -12,7 +13,7 @@ fetch ('http://localhost:3000/characters')
 function renderChar (character) {
     const animeChar =document.createElement ("div")
     animeChar.classList.add ("anime-char")
-
+// adding another class to each div
  let charClass = "";
   switch (character.characterType) {
   case "prince":
@@ -49,3 +50,9 @@ animeChar.classList.add(charClass);
     imgChar.append (h2, img, p)
 
     }
+
+//search bar event
+
+searchBar.addEventListener("keydown", (e) => {
+console.log (`key=${e.key}, code =${e.code}`);
+});
