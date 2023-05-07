@@ -1,13 +1,26 @@
 const disneyChar =[];
 const searchBar=document.querySelector('#search-bar');
 
-fetch ('http://localhost:3000/characters')
-.then ((res) => res.json())
-.then ((responseCharacters)  =>{responseCharacters.forEach((element) => {
-    disneyChar.push (element)
-    renderChar(element)
-});
-});
+
+
+// fetch ('http://localhost:3000/characters')
+// .then ((res) => res.json())
+// .then ((responseCharacters)  =>{responseCharacters.forEach((element) => {
+//     disneyChar.push (element)
+//     renderChar(element)
+// });
+// });
+fetch('http://localhost:3000/characters')
+  .then(res => res.json())
+  .then(disneyChar => {
+
+    const filteredCharacters = disneyChar.filter(char => char.characterType !== "princess");
+    // Loop through the filtered character list and render them
+    filteredCharacters.forEach(char => renderChar(char));
+
+    console.log(filteredCharacters);
+
+  });
 
 // adding the renderChar() function is implemented 
 function renderChar (character) {
@@ -56,3 +69,25 @@ animeChar.classList.add(charClass);
 searchBar.addEventListener("keydown", (e) => {
 console.log (`key=${e.key}, code =${e.code}`);
 });
+
+
+
+//button click event
+// const buttons =document.querySelectorAll('.filterChar')
+
+// const films=document.querySelectorAll ('.films-desc')
+// const imgFilters=document.querySelectorAll('.anime-char');
+
+buttonsFilters.forEach ((button)=> {
+    button.addEventListener ("click", (e)=> {
+        e.preventDefault ();
+        setClickBtn (e);
+        const imgBtn =e.target.dataset.filter
+        filterButton(imgBtn);       
+    })
+})
+
+//onclick function
+
+
+
