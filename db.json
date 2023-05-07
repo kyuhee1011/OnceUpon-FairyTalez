@@ -1,0 +1,612 @@
+{
+    "characters": [
+        {
+            "id": 1,
+            "films": [
+                "Aladdin",
+                "The Return of Jafar",
+                "Aladdin and the King of Thieves"
+                      ],
+            "name": "Aladdin",
+            "characterType": "prince",
+            "characterPersonality": [
+                "Brave",
+                "Caring",
+                "Friendly",
+                "Quick witted",
+                "Kind"
+            ],
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/b/bb/Profile_-_Aladdin.png"
+           
+        },
+        {
+            "id": 2,
+            "films": [
+                "The Little Mermaid",
+                "The Little Mermaid II: Return to the Sea"
+            ],
+          
+            "name": "Prince Eric",
+            "characterType": "prince",
+            "characterPersonality": [
+                "Smart",
+                "Romantic",
+                "Kind",
+                "Caring",
+                "Mature",
+                "Heroic",
+                "Brave"
+            ],
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/f/f1/Profile_-_Prince_Eric.jpeg"
+        },
+        {
+            "id": 3,
+            "films": "Sleeping Beauty",
+            "name": "Prince Phillip",
+            "characterType": "prince",
+            "characterPersonality": [
+                "Funny",
+                "Strong",
+                "Kind",
+                "Heroic",
+                "Brave"
+            ],
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/8/86/Profile_-_Prince_Phillip.png"
+         
+        },
+        {
+            "id": 4,
+            "films": [
+                "Cinderella (1950 film)",
+                "Cinderella II: Dreams Come True",
+                "Cinderella III: A Twist in Time"
+            ],
+         
+            "name": "Prince Charming",
+            "characterType": "prince",
+            "characterPersonality": [
+                "Funny",
+                "Romantic",
+                "Kind",
+                "Secretive"
+            ],
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/e/ec/Profile_-_Prince_Charming.png"
+      
+        },
+        {
+            "id": 5,
+            "films": "Tangled",          
+            "name": "Flynn Rider",
+            "characterType": "prince",
+            "characterPersonality": [
+                "Charming",
+                "Romantic",
+                "Kind",
+                "Caring",
+                "Attractive"
+            ],
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/8/84/Profile_-_Flynn_Rider.jpeg"
+   
+        },
+        {
+            "id": 6,
+            "films": [
+                "Mulan",
+                "Mulan II",
+                "Descendants"
+            ],
+            "sourceUrl": "https://disney.fandom.com/wiki/Li_Shang",
+            "name": "Li Shang",
+            "characterType": "prince",
+            "characterPersonality": [
+                "Brave",
+                "Thoughtful",
+                "Kind",
+                "Caring",
+                "Commanding"
+            ],
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/d/da/Profile_-_Shang.jpeg"
+   
+        },
+        {
+            "id": 7,
+            "films": [
+                "Aladdin (film)",
+                "The Return of Jafar",
+                "Aladdin and the King of Thieves"
+                 ],
+         
+            "name": "Jasmine",
+            "characterType": "princess",
+            "characterPersonality": [
+                "Brave",
+                "Confident",
+                "Intelligent",
+                "Caring",
+                "Romantic",
+                "Outgoing"
+            ],
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/c/cd/Profile_-_Jasmine.jpeg"
+       
+        },
+        {
+            "id": 8,
+            "films": [
+                "The Little Mermaid",
+                "The Little Mermaid II: Return to the Sea",
+                "The Little Mermaid: Ariel's Beginning"
+    
+            ],
+            "name": "Ariel",
+            "characterType": "princess",
+            "characterPersonality": [
+                "Childlike",
+                "Confident",
+                "Curious",
+                "Brave",
+                "Romantic",
+                "Kind",
+                "Lovable"
+            ],
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/8/8a/Profile_-_Ariel.jpg"
+        
+        },
+        {
+            "id": 9,
+            "films": "Sleeping Beauty",
+       
+            "name": "Aurora",
+            "characterType": "princess",
+            "characterPersonality": [
+                "Gentle",
+                "Shy",
+                "Friendly",
+                "Angelic",
+                "Romantic",
+                "Kind",
+                "Lovable"
+            ],
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/2/2a/Profile_-_Aurora.jpeg"
+        
+        },
+        {
+            "id": 10,
+            "films": [
+                "Cinderella (1950 film)",
+                "Cinderella II: Dreams Come True",
+                "Cinderella III: A Twist in Time"
+              
+            ],
+            "name": "Cinderella",
+            "characterType": "princess",
+            "characterPersonality": [
+                "Hard-working",
+                "Intelligent",
+                "Friendly",
+                "Sweet",
+                "Romantic",
+                "Kind",
+                "Skillful"
+            ],
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/e/e5/Profile_-_Cinderella.jpeg"
+          
+        },
+        {
+            "id": 11,
+            "films": 
+                "Beauty and the Beast (1991 film)",                          
+            "name": "Belle",
+            "characterType": "princess",
+            "characterPersonality": [
+                "Selfless",
+                "Intelligent",
+                "Friendly",
+                "Sweet",
+                "Kind",
+                "Bibliophilic"
+            ],
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/1/1b/Profile_-_Belle.jpeg"
+       
+        },
+        {
+            "id": 12,
+            "films": "Tangled",                                  
+            "name": "Rapunzel",
+            "characterType": "princess",
+            "characterPersonality": [
+                "Funny",
+                "Dreamer",
+                "Confident",
+                "Sweet",
+                "Kind",
+                "Curious"
+            ],
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/a/ae/Profile_-_Rapunzel.jpeg"
+        },
+        {
+            "id": 13,
+            "films": [
+                "Mulan",
+                "Mulan II"
+          
+            ],
+            "name": "Fa Mulan",
+            "characterType": "princess",
+            "characterPersonality": [
+                "Brave",
+                "Self-conscious",
+                "Confident",
+                "Heroic",
+                "Kind",
+                "Selfless"
+            ],
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/0/04/Profile_-_Mulan.jpeg"
+        },
+
+     {
+            "id": 14,
+            "films": [
+                "Aladdin (film)",
+                "The Return of Jafar",
+                "Aladdin and the King of Thieves"
+               
+            ],
+            "name": "Jafar",
+            "characterType": "villain",
+            "characterPersonality": [
+                "Psychopath",
+                "Selfish",
+                "Deceitful",
+                "Liar",
+                "Abusive",
+                "Anger"
+            ],
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/6/60/Profile_-_Jafar.jpeg"
+        },
+        {
+            "id": 15,
+            "films":    "The Little Mermaid",        
+            "name": "Ursula",
+            "characterType": "villain",
+            "characterPersonality": [
+                "Funny",
+                "Feminine",
+                "Deceitful",
+                "Liar",
+                "Sinister",
+                "Anger"
+            ],
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/7/72/Profile_-_Ursula.jpeg"
+        },
+        {
+            "id": 16,
+            "films":  "Sleeping Beauty",
+            "name": "Maleficent",
+            "characterType": "villain",
+            "characterPersonality": [
+                "Devious",
+                "Evil",
+                "Sinister",
+                "Anger"
+            ],
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/0/05/Profile_-_Maleficent.jpeg"
+        },
+        {
+            "id": 17,
+            "films": [
+                "Cinderella (1950 film)",
+                "Cinderella II: Dreams Come True",
+                "Cinderella III: A Twist in Time"
+               
+            ],
+            "name": "Lady Tremaine",
+            "characterType": "villain",
+            "characterPersonality": [
+                "Ambitious",
+                "Selfish",
+                "Aggressive ",
+                "Cruel",
+                "Ruthless",
+                "Cold"
+            ],
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/4/42/Profile_-_Lady_Tremaine.jpeg"
+        },
+        {   "id": 18,
+            "films": [
+                "Beauty and the Beast (1991 film)"
+            
+            ],
+            "name": "Gaston",
+            "characterType": "villain",
+            "characterPersonality": [
+                "Greedy",
+                "Selfish",
+                "Arrogant",
+                "Charismatic",
+                "Ruthless",
+                "Anger"
+            ],
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/d/d4/Profile_-_Gaston.jpeg"
+        },
+        {
+            "id": 19,
+            "films": [
+                "Peter Pan (film)",
+                "Return to Never Land"
+            
+            ],
+            "name": "Captain Hook",
+            "characterType": "villain",
+            "characterPersonality": [
+                "Greedy",
+                "Quick temper",
+                "Arrogant",
+                "Coward",
+                "Sinister",
+                "Anger"
+            ],
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/0/0b/Profile_-_Captain_Hook.jpeg"
+        },
+        {
+            "id": 20,
+            "films": [
+                "Tangled",
+                "Tangled: Before Ever After"
+            ],
+            "name": "Mother Gothel",
+            "characterType": "villain",
+            "characterPersonality": [
+                "Greedy",
+                "Ruthless",
+                "Selfish",
+                "Manipulative",
+                "Sinister",
+                "Overprotective"
+            ],
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/f/f9/Profile_-_Mother_Gothel.jpeg"
+        },
+        {
+            "id": 21,
+            "films": "Mulan",
+            "name": "Shan-Yu",
+            "characterType": "villain",
+            "characterPersonality": [
+                "Greedy",
+                "Ruthless",
+                "Selfish",
+                "Darkest",
+                "Cruel",
+                "Brave"
+            ],
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/d/da/Profile_-_Shan_Yu.jpeg"
+        },
+    
+
+    {
+        "id": 22,
+        "films": [
+            "Aladdin (film)",
+            "The Return of Jafar",
+            "Aladdin and the King of Thieves"
+            
+        ],
+        "name": "Genie",
+        "characterType": "fairy",
+        "characterPersonality": [
+            "Happy",
+            "Loving",
+            "Kind",
+            "Powerful",
+            "Comedic"
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/disney/images/9/92/Profile_-_Genie.jpeg"
+    },
+    {
+        "id": 23,
+        "films": "Sleeping Beauty",
+        "name": "Flora, Fauna, and Merryweather",
+        "characterType": "fairy",
+        "characterPersonality": [
+            "Caring",
+            "Loving",
+            "Kind",
+            "Hapiness",
+            "Sensitive",
+            "Powerful"
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/disney/images/e/ea/Profile_-_Three_Good_Faries.png"
+    },
+    {
+        "id": 24,
+        "films": [
+            "Cinderella (1950 film)",
+            "Cinderella II: Dreams Come True",
+            "Cinderella III: A Twist in Time"
+               ],
+        "name": "Fairy Godmother",
+        "characterType": "fairy",
+        "characterPersonality": [
+            "Caring",
+            "Loving",
+            "Kind",
+            "Hapiness",
+            "Sensitive",
+            "Powerful",
+            "Motherly"
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/disney/images/d/d9/Profile_-_Fairy_Godmother.jpeg"
+    },
+    {
+        "id": 25,
+        "films": [
+            "Peter Pan (film)",
+            "Return to Never Land"         
+        ],
+        "name": "Peter Pan",
+        "characterType": "fairy",
+        "characterPersonality": [
+            "Daring",
+            "Loving",
+            "Kind",
+            "Hapiness",
+            "Heartless",
+            "Playful",
+            "Self-centered",
+            "Fearless"
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/disney/images/5/5e/Profile_-_Peter_Pan.jpeg"
+    },
+    {
+        "id": 26,
+        "films": [
+            "Peter Pan (film)",
+            "Return to Never Land",
+            "Tinker Bell (film)"                
+        ],
+        "name": "Tinker Bell",
+        "characterType": "fairy",
+        "characterPersonality": [
+            "Sassy",
+            "Self-centered",
+            "Stubborn",
+            "Quick temper",
+            "Curious",
+            "Jealous",
+            "Impatient"
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/disney/images/7/76/Profile_-_Tinker_Bell.jpeg"
+    },
+    {
+        "id": 27,
+        "films": [
+            "Mulan",
+            "Mulan II"
+        ],
+        "name": "Fa Family Ancestors",
+        "characterType": "fairy",
+        "characterPersonality": [
+            "Powerfula",
+            "Commanding",
+            "Stubborn",
+            "Quick temper",
+            "Impatient"
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/disney/images/f/f8/Mulan-disneyscreencaps.com-2444.jpg"
+    },
+    {
+        "id": 28,
+        "films": [
+            "Aladdin (film)",
+            "The Return of Jafar",
+            "Aladdin and the King of Thieves"
+        ],
+        "name": "Abu",
+        "characterType": "animal",
+        "characterPersonality": [
+            "Playful",
+            "Mischievous",
+            "kleptomaniacal",
+            "Cute"
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/disney/images/3/3f/Profile_-_Abu.png"
+    },
+    {   "id": 29,
+        "films": [
+            "The Little Mermaid",
+            "The Little Mermaid II: Return to the Sea"          
+        ],
+        "name": "Flounder",
+        "characterType": "animal",
+        "characterPersonality": [
+            "Energetic",
+            "Friendly",
+            "Fun-loving",
+            "Coward",
+            "Curious",
+            "Outgoing",
+            "Playful",
+            "Brave"
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/disney/images/6/60/Profile_-_Flounder.jpeg"
+    },
+    {   "id": 30,
+        "films": [
+            "Cinderella (1950 film)",
+            "Cinderella II: Dreams Come True",
+            "Cinderella III: A Twist in Time" 
+        ],
+        "name": "Jaq and Gus",
+        "characterType": "animal",
+        "characterPersonality": [
+            "Fearless",
+            "Witted",
+            "Brave",
+            "Sensitive",
+            "Coward",
+            "Lovable",
+            "Happy",
+            "Sweet"
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/disney/images/d/d1/Profile_-_Jaq_and_Gus.jpeg"
+    }, 
+    {   "id": 31,
+        "films": "Beauty and the Beast",                       
+        "name": "Philippe",
+        "characterType": "animal",
+        "characterPersonality": [
+            "Loyal",
+            "Friendly",
+            "Coward",
+            "Nervous",
+            "Frightened"
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/disney/images/4/4e/Beauty-disneyscreencaps.com-1030.jpg"
+    },
+    {
+        "id": 32,
+        "films": "Tangled",                     
+        "name": "Pascal",
+        "characterType": "animal",
+        "characterPersonality": [
+            "Loyal",
+            "Friendly",
+            "Lovable",
+            "Intelligent"
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/disney/images/b/ba/Profile_-_Pascal.png"
+    },
+    {   "id": 33,
+        "films": [
+            "Mulan",
+            "Mulan II"           
+        ],
+        "name": "Mushu",
+        "characterType": "animal",
+        "characterPersonality": [
+            "Overconfident",
+            "Friendly",
+            "Brave",
+            "Daring",
+            "Comedic",
+            "Intelligent",
+            "Selfless"
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/disney/images/1/17/Profile_-_Mushu.jpeg"
+    },
+    {   "id": 34,
+        "films": "Beauty and the Beast (1991 film)",           
+        "name": "Beast",
+        "characterType": "animal",
+        "characterPersonality": [
+            "Angry",
+            "Romantic",
+            "Selfish",
+            "Kind",
+            "Caring",
+            "Stubborn"
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/disney/images/8/84/Profile_-_Beast.jpeg"
+    }
+
+]
+}
