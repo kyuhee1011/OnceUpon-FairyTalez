@@ -100,3 +100,64 @@ main {
 img {
     width:100%;
 }
+
+
+img {
+    width:100%;
+}
+
+.prince-char {
+    border: 2px solid #1e2cc4;
+    padding:10px;
+    margin: 5% 0 10% 0;
+
+}
+.princeButton {
+    color:#1e2cc4;
+}
+
+.princess-char {   
+    border: 2px solid rgb(240, 132, 156);
+    padding:10px;
+    margin: 5% 0 10% 0;
+
+}
+
+.princessButton{
+    color:rgb(240, 132, 156);
+}
+
+.villain-char {   
+    border: 2px solid #7c3f20;
+    padding:10px;
+    margin: 5% 0 10% 0;
+
+}
+
+.villainButton {
+    color: #7c3f20;
+}
+
+.fairy-char {   
+    border: 2px solid #4fafdb;
+    padding:10px;
+    margin: 5% 0 10% 0;
+
+}
+
+.fairyButton {
+    color: #4fafdb;
+
+}
+
+.animal-char {   
+    border: 2px solid #eba212;
+    padding:10px;
+    margin: 5% 0 10% 0;
+
+}
+
+.animalButton {
+    color: #eba212;
+
+}
