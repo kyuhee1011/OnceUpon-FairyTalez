@@ -157,6 +157,14 @@ img {
 
 }
 
+.ftStyle {
+    background-color: rgb(110, 180, 142);
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+    padding: .5rem;
+}
+
 
 /*display change by window size */
 
