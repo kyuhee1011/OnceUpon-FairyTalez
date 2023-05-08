@@ -1,7 +1,82 @@
 body {
     margin: 0;
+
+}
+.font-color1 {
+    color: #3434f5;
 }
 
+.font-color2 {
+    color: #f9bb00;
+}
+
+.font-color3 {
+    color: #A55FEB;
+}
+
+.font-color4 {
+    color: #6755E3;
+}
+
+.font-color5 {
+    color: #4fafdb
+}
+.font-color6 {
+    color: #eba212;
+}
+
+
+nav {
+   text-align: center;
+}
+
+.collection {
+    text-align: center;
+    margin-bottom: -10px;
+}
+#search-bar {
+    border: 5px solid rgb(110, 180, 142);
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+}
+form {
+    padding-bottom: 10px;
+}
+button {
+    margin: .5em 1em .5em 1em;
+    font-size: 100%;
+    border: 2px solid rgb(110, 180, 142);
+     border-radius: 1em;
+    background: white;
+    color: #6404c4;
+    cursor: pointer;
+    transition: .2s
+}
+.imgFilter{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    justify-content: center;
+
+}
+
+.filterChar {
+    display:grid;
+    justify-content: center;
+    margin: 5px 5px 0px 5px;
+
+}
+.mobile-screen {
+    padding: 2rem;
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    text-align: center;
+    margin-top: 50px;
+}
 
 
 .collection .anime-char.show{
@@ -22,3 +97,6 @@ body {
     display:none;
 }
 
+img {
+    width:100%;
+}

@@ -1,11 +1,12 @@
 const disneyChar =[];
 
 const searchBar=document.querySelector('#search-bar');
-const buttons =document.querySelectorAll('.filterChar')
+
 
 const films=document.querySelectorAll ('.films-desc')
 const imgFilters=document.querySelectorAll('.anime-char');
 
+const buttonsFilters=document.querySelectorAll('.filterChar');
 
 
 fetch ('http://localhost:3000/characters')
@@ -57,7 +58,7 @@ p.textContent = character.films;
 p.classList.add ("films-desc")
 ;
 const imgChar= document.querySelector (".imgChar").appendChild (animeChar)
-imgChar.append (h2, img, p)
+imgChar.append (img, h2, p)
 
 }
 
@@ -65,10 +66,62 @@ imgChar.append (h2, img, p)
 //search bar event
 
 searchBar.addEventListener("keydown", (e) => {
-    console.log (`key=${e.key}, code =${e.code}`);
+    const searchMovie =e.target.value.toLowerCase();
+    e.preventDefault()
+    //     console.log (`key=${e.key}, code =${e.code}`);
+        const searchFilms = disneyChar.filter ((character) => {
+            return (
+            character.name.includes(searchMovie) || character.films.includes (searchMovie)
+            );
+        })
+    
+        displayMovie(searchFilms);
     });
     
+    const loadCharcMovie =async () => {
+        try {
+            const res = await fetch('http://localhost:3000/characters')
+            disneyChar=await res.json ();
+            displayMovie (disneyChar, characFilm);
+        
+        } catch (err) {
+            console.log (err)};
+        }
+    
+    const displayMovie = (disneyChar)=> {
+        const imgChar = document.querySelector(".imgChar");
+        const filmPlay = disneyChar
+        .map ((character) => {
+                return `
+                <img src="${character.image}"/>
+                <h2> ${character.name}</h2>
+                <ul> films:
+                    <li> ${character.films}<li>
+                    </ul>`;
+            })
+            .join ("");
+    
+            characFilm.textContent =filmPlay;
+    }
 //button click event
+
+
+// //button click event
+// function addsEventListenerButton () {
+//     document.getElementsByClassName ('imgFilter').addEventListener ("click", buttonsFilters)
+    
+//     }
+    
+//     function  buttonsFilters (e) {
+//             e.preventDefault ();
+//             setClickBtn (e);
+//             const imgBtn =e.target.dataset.filter
+//             filterButton(imgBtn);       
+//         }
+    
+    
+//const buttonsFilters=document.querySelectorAll('.filterChar');
+
 // buttonsFilters.forEach ((button)=> {
 //     button.addEventListener ("click", (e)=> {
 //         e.preventDefault ();
