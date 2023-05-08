@@ -161,6 +161,37 @@ img {
 /*display change by window size */
 
 @media screen and (min-width: 550px) {
+    #headerGrid {
+        display: grid;
+        grid-template: 1fr / 1fr 1fr 1fr;
+        grid-auto-flow: row;
+
+    }
+
+    .titleGrid {
+        grid-column: 2/3;
+        grid-row: 1;
+    }
+
+    .searchGrid {
+        grid-column: 3/3;
+        grid-row: 1;
+        justify-self: end;
+    }
+
+    .collection {
+        margin-top: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imgFilter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
  
     .imgChar {
         display: grid;
