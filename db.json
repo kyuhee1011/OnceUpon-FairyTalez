@@ -242,8 +242,7 @@
             ],
             "imageUrl": "https://static.wikia.nocookie.net/disney/images/0/04/Profile_-_Mulan.jpeg"
         },
-
-     {
+        {
             "id": 14,
             "films": [
                 "Aladdin (film)",
@@ -379,11 +378,8 @@
                 "Brave"
             ],
             "imageUrl": "https://static.wikia.nocookie.net/disney/images/d/da/Profile_-_Shan_Yu.jpeg"
-        },
-    
-
-    {
-        "id": 22,
+    },
+    {   "id": 22,
         "films": [
             "Aladdin (film)",
             "The Return of Jafar",
@@ -606,7 +602,57 @@
             "Stubborn"
         ],
         "imageUrl": "https://static.wikia.nocookie.net/disney/images/8/84/Profile_-_Beast.jpeg"
-    }
+    },
+    {
+        "id": 35,
+        "films": [
+            "Cinderella (1950 film)",
+            "Cinderella II: Dreams Come True",
+            "Cinderella III: A Twist in Time"      
+        ],
+        "name": "Drizella Tremaine",
+        "characterType": "villain",
+        "characterPersonality": [
+            "Greedy",
+            "Selfish",
+            "Envous ",
+            "Cruel",
+            "Spoiled"
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/disney/images/6/61/Profile_-_Drizella_Tremaine.png"
+    },
+    { "id": 36,
+    "films": [
+        "The Little Mermaid",
+        "The Little Mermaid II: Return to the Sea"],
+    "name": "Sebastian",
+    "characterType": "animal",
+    "characterPersonality": [
+        "Energetic",
+        "Quick temper",
+        "Fun-loving",
+        "Carefree"
+    ],
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/c/ca/Profile_-_Sebastian.jpeg"
+},
+{
+    "id": 37,
+    "films": [
+        "Mulan",
+        "Mulan II" ],
+    "name": "Cri-Kee",
+    "characterType": "animal",
+    "characterPersonality": [
+        "Cheerful",
+        "Friendly",
+        "Brave",
+        "Daring",
+        "Playful",
+        "Intelligent",
+        "Selfless"
+    ],
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/f/f3/Profile_Cri-Kee.png"
+}
 
 ]
 }

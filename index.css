@@ -101,11 +101,6 @@ img {
     width:100%;
 }
 
-
-img {
-    width:100%;
-}
-
 .prince-char {
     border: 2px solid #1e2cc4;
     padding:10px;
@@ -160,4 +155,23 @@ img {
 .animalButton {
     color: #eba212;
 
+}
+
+
+/*display change by window size */
+
+@media screen and (min-width: 550px) {
+ 
+    .imgChar {
+        display: grid;
+        grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr 1fr 1fr;
+        justify-content: center;
+
+    }
+
+    .anime-char {
+        margin: 5px 10px 5px 10px;
+        padding-top: 10px;
+
+    }
 }
