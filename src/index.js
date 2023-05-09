@@ -136,11 +136,13 @@ const buttons = document.querySelectorAll (".filterChar")
       });
     
       console.log(filterDisneyChar);
-    
-    const imgCharDiv =  document.querySelector (".imgChar")
-    while (imgCharDiv.firstChild) {
-        imgCharDiv.removeChild (imgCharDiv.firstChild); 
-    }
-      
-    filterDisneyChar.forEach (character => renderChar(character))
+      const imgCharDiv =  document.querySelector (".imgChar")
+      while (imgCharDiv.firstChild) {
+          imgCharDiv.removeChild (imgCharDiv.firstChild); 
+      }
+        
+      filterDisneyChar.forEach (character => renderChar(character))
+      }
+  
+
     }
