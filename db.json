@@ -21,8 +21,7 @@
         },
         {
             "id": 2,
-            "films": 
-                "Beauty and the Beast (1991 film)",                          
+            "films": ["Beauty and the Beast (1991 film)" ],                                     
             "name": "Belle",
             "characterType": "princess",
             "characterPersonality": [
@@ -120,7 +119,7 @@
         },
         {
             "id": 7,
-            "films": "Tangled",          
+            "films": ["Tangled"],          
             "name": "Flynn Rider",
             "characterType": "prince",
             "characterPersonality": [
@@ -135,7 +134,7 @@
         },
         {
             "id": 8,
-            "films":  "Sleeping Beauty",
+            "films":  ["Sleeping Beauty"],
             "name": "Maleficent",
             "characterType": "villain",
             "characterPersonality": [
@@ -203,7 +202,7 @@
         },
         {
             "id": 12,
-            "films": "Tangled",                                  
+            "films": ["Tangled"],                                  
             "name": "Rapunzel",
             "characterType": "princess",
             "characterPersonality": [
@@ -317,8 +316,7 @@
                 "Aladdin (film)",
                 "The Return of Jafar",
                 "Aladdin and the King of Thieves"
-               
-            ],
+                 ],
             "name": "Jafar",
             "characterType": "villain",
             "characterPersonality": [
@@ -403,7 +401,7 @@
     }, 
     {
         "id": 23,
-        "films": "Mulan",
+        "films": ["Mulan"],
         "name": "Shan-Yu",
         "characterType": "villain",
         "characterPersonality": [
@@ -418,7 +416,7 @@
         },
         {
         "id": 24,
-        "films": "Sleeping Beauty",
+        "films": ["Sleeping Beauty"],
         "name": "Flora, Fauna, and Merryweather",
         "characterType": "fairy",
         "characterPersonality": [
@@ -433,7 +431,7 @@
         },
         {
             "id": 25,
-            "films": "Tangled",                     
+            "films": ["Tangled"],                     
             "name": "Pascal",
             "characterType": "animal",
             "characterPersonality": [
@@ -446,7 +444,7 @@
         },
         {
             "id": 26,
-            "films":    "The Little Mermaid",        
+            "films":   ["The Little Mermaid"],        
             "name": "Ursula",
             "characterType": "villain",
             "characterPersonality": [
@@ -500,7 +498,7 @@
         },
         {
             "id": 29,
-            "films": "Sleeping Beauty",
+            "films": ["Sleeping Beauty"],
        
             "name": "Aurora",
             "characterType": "princess",
@@ -537,7 +535,7 @@
             "imageUrl": "https://static.wikia.nocookie.net/disney/images/4/42/Profile_-_Lady_Tremaine.jpeg"
         },
         {   "id": 31,
-        "films": "Beauty and the Beast",                       
+        "films": ["Beauty and the Beast"],                       
         "name": "Philippe",
         "characterType": "animal",
         "characterPersonality": [
@@ -551,7 +549,7 @@
     },
     {
         "id": 32,
-        "films": "Sleeping Beauty",
+        "films": ["Sleeping Beauty"],
         "name": "Prince Phillip",
         "characterType": "prince",
         "characterPersonality": [
@@ -641,7 +639,7 @@
 "imageUrl": "https://static.wikia.nocookie.net/disney/images/9/92/Profile_-_Genie.jpeg"
 },
 {   "id": 37,
-"films": "Beauty and the Beast (1991 film)",           
+"films": ["Beauty and the Beast (1991 film)"],           
 "name": "Beast",
 "characterType": "animal",
 "characterPersonality": [

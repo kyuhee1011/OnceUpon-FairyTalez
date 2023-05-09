@@ -79,8 +79,8 @@ main {
 }
 
 
-.collection .anime-char.show{
-    animation: fadeIn .5s;
+.anime-char{
+    animation: fadeIn 1s;
 }
 
 @keyframes fadeIn{
@@ -181,7 +181,7 @@ img {
         grid-row: 1;
     }
 
-    .searchGrid {
+    #searchGrid {
         grid-column: 3/3;
         grid-row: 1;
         justify-self: end;
