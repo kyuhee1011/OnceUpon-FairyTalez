@@ -58,23 +58,23 @@ function renderChar(character) {
   imgChar.append(img, h2, p);
 }
 
-//search bar event
-const form=document.querySelector("form")
-form.addEventListener ("submit", (e)=> {
-    e.preventDefault ()
-    const formData= new FormData (form)
-    console.log (formData.entries())
-})
+// //search bar event
+// const form=document.querySelector("form")
+// form.addEventListener ("submit", (e)=> {
+//     e.preventDefault ()
+//     const formData= new FormData (form)
+//     console.log (formData.entries())
+// })
 
 
 // function addEventListener () {
 //     document.getElementById ("searchGrid").addEventListener ("submit", searchSubmitForm)
 // }
 
-function searchSubmitForm (e){
-    e.preventDefault ()
-    console.log (e)
-}
+// function searchSubmitForm (e){
+//     e.preventDefault ()
+//     console.log (e)
+// }
 
 
 // searchBar.addEventListener("keydown", (e) => {
@@ -101,45 +101,46 @@ function searchSubmitForm (e){
 //   }
 // };
 
-const displayMovie = (disneyChar) => {
-  const imgChar = document.querySelector(".imgChar");
-  const filmPlay = disneyChar
-    .map((character) => {
-      return `
-                <img src="${character.image}"/>
-                <h2> ${character.name}</h2>
-                <ul> films:
-                    <li> ${character.films}<li>
-                    </ul>`;
-    })
-    .join("");
+// const displayMovie = (disneyChar) => {
+//   const imgChar = document.querySelector(".imgChar");
+//   const filmPlay = disneyChar
+//     .map((character) => {
+//       return `
+//                 <img src="${character.image}"/>
+//                 <h2> ${character.name}</h2>
+//                 <ul> films:
+//                     <li> ${character.films}<li>
+//                     </ul>`;
+//     })
+//     .join("");
 
-  characFilm.textContent = filmPlay;
-};
+//   characFilm.textContent = filmPlay;
+// };
 
 //button click event
 
 //const disneyChar =[];
+    
 const buttons = document.querySelectorAll (".filterChar")
-buttons.forEach ((button)=> {
-    button.addEventListener ("click", (e)=> filterButton(button.dataset.id))
-})
-
-function filterButton(filterImage) {
-  const filterDisneyChar = disneyChar.filter((character) => {
-    if (filterImage === "all") {
-      return true;
-    } else {
-      return character.characterType === filterImage;
+    buttons.forEach ((button)=> {
+        button.addEventListener ("click", (e)=> filterButton(button.dataset.id))
+    })
+    
+    function filterButton(filterImage) {
+      const filterDisneyChar = disneyChar.filter((character) => {
+        if (filterImage === "all") {
+          return true;
+        } else {
+          return character.characterType === filterImage;
+        }
+      });
+    
+      console.log(filterDisneyChar);
+    
+    const imgCharDiv =  document.querySelector (".imgChar")
+    while (imgCharDiv.firstChild) {
+        imgCharDiv.removeChild (imgCharDiv.firstChild); 
     }
-  });
-
-  console.log(filterDisneyChar);
-
-const imgCharDiv =  document.querySelector (".imgChar")
-while (imgCharDiv.firstChild) {
-    imgCharDiv.removeChild (imgCharDiv.firstChild); 
-}
-  
-filterDisneyChar.forEach (character => renderChar(character))
-}
+      
+    filterDisneyChar.forEach (character => renderChar(character))
+    }
