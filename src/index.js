@@ -1,6 +1,6 @@
 const disneyChar = [];
 
-const searchBar = document.querySelector("#search-bar");
+
 
 const films = document.querySelectorAll(".films-desc");
 const imgFilters = document.querySelectorAll(".anime-char");
@@ -59,21 +59,14 @@ function renderChar(character) {
 }
 
 // //search bar event
-const form=document.querySelector("form")
-form.addEventListener ("submit", (e)=> {
+const searchBar =document.querySelector("#search-bar")
+const searchSubmitForm= document.getElementById ("searchGrid")
+
+searchSubmitForm.addEventListener ("submit", (e)=> {
     e.preventDefault ()
-        console.log (e)
+        console.log (searchBar.value)
+
 })
-
-
-// function addEventListener () {
-//     document.getElementById ("searchGrid").addEventListener ("submit", searchSubmitForm)
-// }
-
-// function searchSubmitForm (e){
-//     e.preventDefault ()
-//     console.log (e)
-// }
 
 
 
@@ -105,10 +98,5 @@ const buttons = document.querySelectorAll (".filterChar")
       }
   
 
-      const imgCharDiv =  document.querySelector (".imgChar")
-      while (imgCharDiv.firstChild) {
-          imgCharDiv.removeChild (imgCharDiv.firstChild); 
-      }
-        
-      filterDisneyChar.forEach (character => renderChar(character))
+
     
