@@ -59,12 +59,11 @@ function renderChar(character) {
 }
 
 // //search bar event
-// const form=document.querySelector("form")
-// form.addEventListener ("submit", (e)=> {
-//     e.preventDefault ()
-//     const formData= new FormData (form)
-//     console.log (formData.entries())
-// })
+const form=document.querySelector("form")
+form.addEventListener ("submit", (e)=> {
+    e.preventDefault ()
+        console.log (e)
+})
 
 
 // function addEventListener () {
@@ -77,45 +76,6 @@ function renderChar(character) {
 // }
 
 
-// searchBar.addEventListener("keydown", (e) => {
-//   const searchMovie = e.target.value.toLowerCase();
-//   e.preventDefault();
-//   //     console.log (`key=${e.key}, code =${e.code}`);
-//   const searchFilms = disneyChar.filter((character) => {
-//     return (
-//       character.name.includes(searchMovie) ||
-//       character.films.includes(searchMovie)
-//     );
-//   });
-
-//   displayMovie(searchFilms);
-// });
-
-// const loadCharcMovie = async () => {
-//   try {
-//     const res = await fetch("http://localhost:3000/characters");
-//     disneyChar = await res.json();
-//     displayMovie(disneyChar, characFilm);
-//   } catch (err) {
-//     console.log(err);
-//   }
-// };
-
-// const displayMovie = (disneyChar) => {
-//   const imgChar = document.querySelector(".imgChar");
-//   const filmPlay = disneyChar
-//     .map((character) => {
-//       return `
-//                 <img src="${character.image}"/>
-//                 <h2> ${character.name}</h2>
-//                 <ul> films:
-//                     <li> ${character.films}<li>
-//                     </ul>`;
-//     })
-//     .join("");
-
-//   characFilm.textContent = filmPlay;
-// };
 
 //button click event
 
@@ -145,4 +105,10 @@ const buttons = document.querySelectorAll (".filterChar")
       }
   
 
-    }
+      const imgCharDiv =  document.querySelector (".imgChar")
+      while (imgCharDiv.firstChild) {
+          imgCharDiv.removeChild (imgCharDiv.firstChild); 
+      }
+        
+      filterDisneyChar.forEach (character => renderChar(character))
+    

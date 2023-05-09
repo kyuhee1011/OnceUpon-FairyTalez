@@ -28,7 +28,10 @@
                     <div class="searchGrid">
                         <form>
                             <input id="search-bar" type="text" placeholder="Search Movie Title">
+                            <button type="submit" id="search" class="buttons">Search</button>
+
                         </form>
+
                     </div>
                 </div>
             </header>
@@ -37,21 +40,21 @@
             <div class="imgContainer">
                 <div class="row">
                     <div class="imgFilter">
-                        <button class="filterChar allButton active" type="button" onclick="filterButton ('all')">
+                        <button class="filterChar allButton active" type="button" data-id='all'>
                             <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
                             <lord-icon src="https://cdn.lordicon.com/qhuqqoel.json" trigger="hover"
                                 colors="primary:#4be1ec,secondary:#cb5eee" style="width:70px;height:70px">
                             </lord-icon><br>
                             <span>All</span>
                         </button>
-                        <button class="filterChar princeButton" type="button" onclick="filterButton ('prince')">
+                        <button class="filterChar princeButton" type="button" data-id='prince'>
                             <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
                             <lord-icon src="https://cdn.lordicon.com/amxnacxd.json" trigger="hover"
                                 colors="primary:#4be1ec,secondary:#cb5eee" style="width:70px;height:70px">
                             </lord-icon><br><span>Prince</span>
 
                         </button>
-                        <button class="filterChar princessButton" type="button" onclick="filterButton ('princess')">
+                        <button class="filterChar princessButton" type="button" data-id='princess'>
                             <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
                             <lord-icon src="https://cdn.lordicon.com/zfpeedgc.json" trigger="hover"
                                 colors="primary:#4be1ec,secondary:#cb5eee" style="width:70px;height:70px">
@@ -59,7 +62,7 @@
                             <span>Princess</span>
 
                         </button>
-                        <button class="filterChar villainButton" type="button" onclick="filterButton ('villain')">
+                        <button class="filterChar villainButton" type="button" data-id='villain'>
                             <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
                             <lord-icon src="https://cdn.lordicon.com/kwnsphnf.json" trigger="hover"
                                 colors="primary:#4be1ec,secondary:#cb5eee" style="width:70px;height:70px">
@@ -69,14 +72,14 @@
                             </span>
 
                         </button>
-                        <button class="filterChar fairyButton" type="button" onclick="filterButton ('fairy')">
+                        <button class="filterChar fairyButton" type="button" data-id='fairy'>
                             <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
                             <lord-icon src="https://cdn.lordicon.com/miilpjag.json" trigger="hover"
                                 colors="primary:#4be1ec,secondary:#cb5eee" style="width:70px;height:70px">
                             </lord-icon><br>
                             <span>Fairy</span>
                         </button>
-                        <button class="filterChar animalButton" type="button" onclick="filterButton ('animal')">
+                        <button class="filterChar animalButton" type="button" data-id='animal'>
                             <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
                             <lord-icon src="https://cdn.lordicon.com/ganitnqp.json" trigger="hover"
                                 colors="primary:#4be1ec,secondary:#cb5eee" style="width:70px;height:70px">
