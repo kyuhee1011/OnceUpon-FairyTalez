@@ -118,11 +118,17 @@ function filterButton(filterImage) {
   filterDisneyChar.forEach((character) => renderChar(character));
 }
 
-const pageName = document.querySelector("h1");
-pageName.addEventListener("mouseover", (e) => {
-  console.log("mouse moved in");
-});
+//mouse over and leave effects on p element in footer
 
-pageName.addEventListener("mouseleave", (e) => {
-  console.log("mouse moved out");
-});
+const pageName = document.querySelector("p");
+pageName.addEventListener("mouseover", (e) => mouseInEventTitle(pageName));
+
+pageName.addEventListener("mouseleave", (e) => mouseOutEventTitle(pageName));
+
+function mouseInEventTitle(pageName) {
+  pageName.style.color = "black";
+}
+
+function mouseOutEventTitle(pageName) {
+  pageName.style.color = "white";
+}
