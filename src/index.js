@@ -6,6 +6,7 @@ const films = document.querySelectorAll(".films-desc");
 const imgFilters = document.querySelectorAll(".anime-char");
 
 const buttonsFilters = document.querySelectorAll(".filterChar");
+const imgCharDiv = document.querySelector(".imgChar");
 
 fetch("http://localhost:3000/characters")
   .then((res) => res.json())
@@ -67,13 +68,6 @@ const searchSubmits = document.getElementById("searchGrid");
 
 searchSubmits.addEventListener("submit", (e) => {
   e.preventDefault();
-  // const searchSubmits= document.getElementById ("searchGrid")
-  const searchTerm = searchBar.value.toLowerCase();
-
-  // const charactersByName = disneyChar.filter((character) => {
-  //   return character.name.toLowerCase().includes(searchTerm);
-  //   // || character.films.toLowerCase().includes (searchTerm)
-  // });
 
   const charactersByFilm = disneyChar.filter((character) => {
     const filmsEqual = character.films.filter((film) =>
@@ -89,64 +83,15 @@ searchSubmits.addEventListener("submit", (e) => {
     }
   });
 
-  const imgCharDiv = document.querySelector(".imgChar");
-  while (imgCharDiv.firstChild) {
-    imgCharDiv.removeChild(imgCharDiv.firstChild);
-  }
+  // const imgCharDiv = document.querySelector(".imgChar");
+  // while (imgCharDiv.firstChild) {
+  //   imgCharDiv.removeChild(imgCharDiv.firstChild);
+  // }
+  imgCharDiv.replaceChildren();
 
   charactersByFilm.forEach((character) => renderChar(character));
-  // searchFilmsTitle.filter((element) => element !== false);
   console.log(charactersByFilm);
 });
-
-// visit each character
-//visit each film from the character
-//if the film title includes the search string return film
-//if the length of the array of films is greater than zero
-//return true
-
-// function searchMovieTitle (films) {
-//     console.log (films)
-// }
-
-// searchBar.addEventListener("keydown", (e) => {
-//     const searchMovie =e.target.value.toLowerCase();
-//     e.preventDefault()
-//     //     console.log (`key=${e.key}, code =${e.code}`);
-//         const searchFilms = disneyChar.filter ((character) => {
-//             return (
-//             character.name.includes(searchMovie) || character.films.includes (searchMovie)
-//             );
-//         })
-
-//         displayMovie(searchFilms);
-//     });
-
-// const loadCharcMovie =async () => {
-//     try {
-//         const res = await fetch('http://localhost:3000/characters')
-//         disneyChar=await res.json ();
-//         displayMovie (disneyChar, characFilm);
-
-//     } catch (err) {
-//         console.log (err)};
-//     }
-
-// const displayMovie = (disneyChar)=> {
-//     const imgChar = document.querySelector(".imgChar");
-//     const filmPlay = disneyChar
-//     .map ((character) => {
-//             return `
-//             <img src="${character.image}"/>
-//             <h2> ${character.name}</h2>
-//             <ul> films:
-//                 <li> ${character.films}<li>
-//                 </ul>`;
-//         })
-//         .join ("");
-
-//         characFilm.textContent =filmPlay;
-// }
 
 //adding the click addeventlistener to button
 
@@ -168,10 +113,16 @@ function filterButton(filterImage) {
 
   console.log(filterDisneyChar);
 
-  const imgCharDiv = document.querySelector(".imgChar");
-  while (imgCharDiv.firstChild) {
-    imgCharDiv.removeChild(imgCharDiv.firstChild);
-  }
+  imgCharDiv.replaceChildren();
 
   filterDisneyChar.forEach((character) => renderChar(character));
 }
+
+const pageName = document.querySelector("h1");
+pageName.addEventListener("mouseover", (e) => {
+  console.log("mouse moved in");
+});
+
+pageName.addEventListener("mouseleave", (e) => {
+  console.log("mouse moved out");
+});
