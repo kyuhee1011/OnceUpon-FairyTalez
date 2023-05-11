@@ -8,11 +8,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="index.css">
+    <!--kyuhee Lee js-->
+    <script type="text/javascript" src="./src/index.js" defer></script>
     <title>OnceUpon FairyTalez</title>
 
 </head>
 
 <body>
+
     <div class="mobile-screen">
         <!--nav-->
         <nav>
@@ -27,7 +30,7 @@
                     <div id="searchGrid">
                         <form id="formGridEnd">
                             <input id="search-bar" type="text" placeholder="Search Movie Title">
-                            <button type="submit" class="buttons">Search</button>
+                            <button type="submit" id="search" class="searchButtons">Search</button>
 
                         </form>
 
@@ -40,38 +43,39 @@
                 <div class="row">
                     <div class="imgFilter">
                         <button class="filterChar allButton active" type="button" data-id='all'>
-                            <img src="./assets/all-icon.gif" alt="all icon" /><br>
+                            <img src="./assets/all_icon.gif" alt="all icon" /><br>
                             <span>All</span>
                         </button>
                         <button class="filterChar princeButton" type="button" data-id='prince'>
-                            <img src="./assets/prince-icon.gif" alt="prince icon" />
+                            <img src="./assets/prince_icon.gif" alt="prince icon" />
                             <br><span>Prince</span>
 
                         </button>
                         <button class="filterChar princessButton" type="button" data-id='princess'>
-                            <img src="./assets/princess-icon.gif" alt="princess icon" /><br>
+                            <img src="./assets/princess_icon.gif" alt="princess icon" /><br>
                             <span>Princess</span>
 
                         </button>
                         <button class="filterChar villainButton" type="button" data-id='villain'>
-                            <img src="./assets/villain-icon.gif" alt="villain icon" /><br>
+                            <img src="./assets/villain_icon.gif" alt="villain icon" /><br>
                             <span>
                                 Villain
                             </span>
 
                         </button>
                         <button class="filterChar fairyButton" type="button" data-id='fairy'>
-                            <img src="./assets/fairy-icon.gif" alt="fairy icon" /><br>
+                            <img src="./assets/fairy_icon.gif" alt="fairy icon" /><br>
                             <span>Fairy</span>
                         </button>
                         <button class="filterChar animalButton" type="button" data-id='animal'>
-                            <img src="./assets/animal-icon.gif" alt="animal icon" /><br>
+                            <img src="./assets/animal_icon.gif" alt="animal icon" /><br>
                             <span>Animal</span>
                         </button>
                     </div>
                 </div>
             </div>
         </div>
+
 
         <!--main-->
 
@@ -96,6 +100,5 @@
         </footer>
 
     </div>
-    <!--kyuhee Lee js-->
-    <script type="text/javascript" src="./src/index.js"></script>
+
 </body>

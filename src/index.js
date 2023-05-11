@@ -68,6 +68,7 @@ const searchSubmits = document.getElementById("searchGrid");
 
 searchSubmits.addEventListener("submit", (e) => {
   e.preventDefault();
+  const searchTerm = searchBar.value.toLowerCase();
 
   const charactersByFilm = disneyChar.filter((character) => {
     const filmsEqual = character.films.filter((film) =>

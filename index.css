@@ -54,6 +54,22 @@ button {
     cursor: pointer;
     transition: .2s
 }
+#search {
+    margin-left: .5rem;
+    border-radius: 5px;
+    padding: 1rem;
+    border: 3px solid rgb(110, 180, 142);
+    background-color: white;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .imgFilter{
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr 1fr;
