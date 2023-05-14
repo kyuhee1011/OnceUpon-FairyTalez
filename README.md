@@ -89,6 +89,8 @@ MIT
 
 Please click the link below to see a video walkthrough of the project:
 
+https://youtu.be/8Ho0YAdqj7Y
+
 ## Demo
 
 ![project_gif](https://github.com/kyuhee1011/OnceUpon-FairyTalez/assets/126465677/6fb3f442-5708-4594-8820-f1cac146996a)
